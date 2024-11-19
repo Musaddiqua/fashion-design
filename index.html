@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Design Generator</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fashion Design Generator</h1>
+        <input type="text" id="prompt" placeholder="Enter your fashion design idea">
+        
+        <!-- Buttons -->
+        <button id="generate-btn">Generate Design</button>
+        <button id="classify-btn" style="display: none;">Classify Material</button>
+
+        <!-- Result Containers -->
+        <div id="image-container" style="display: none;"></div>
+        <div id="results-container"></div>
+        <div id="result"></div>
+    </div>
+    <!-- Ensure the script is loaded after the DOM -->
+    <script src="/static/script.js"></script> <!-- Correct script file name -->
+</body>
+</html>
